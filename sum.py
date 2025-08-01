@@ -1,6 +1,6 @@
-n=int(input("enter number:"))
-sum=0
-while n>0:
-	sum+=n%10
-	n//=10
-print("sum of digits:",sum)
+n=[10,20,30,40,50]
+total=sum(n)
+average=total/len(n)
+
+print("sum:",total)
+print("average:",average)
